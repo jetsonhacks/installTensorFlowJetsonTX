@@ -9,12 +9,12 @@ There are two directories in this repository, TX1 and TX2. First, install the ma
 ### Python 2.7
 $ sudo apt-get install python-pip
 
-$ pip install <em>tensorflow wheel file</em>
+$ pip install <em>tensorflow-wheel-file</em>
 
 ### Python 3.5
 $ sudo apt-get install python3-pip
 
-$ pip3 install <em>tensorflow wheel file</em>
+$ pip3 install <em>tensorflow-wheel-file</em>
 
 
 # Build Information
