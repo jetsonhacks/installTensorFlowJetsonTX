@@ -4,15 +4,17 @@ Install TensorFlow on the NVIDIA Jetson TX1 or TX2 from the provided wheel files
 Python .whl files for installing TensorFlow. 
 
 # Installation
-There are two directories in this repository, TX1 and TX2. Select the wheel file from directory that matches your Jetson model, and version of Python. Install the matching pip for you Python installation:
+There are two directories in this repository, TX1 and TX2. First, install the matching pip for your Python installation. Then install the wheel file from the directory that matches your Jetson model, and version of Python:
 
 ### Python 2.7
-sudo apt-get install python-pip
-pip install <tensorflow wheel file>
+$ sudo apt-get install python-pip
+
+$ pip install <em>tensorflow wheel file</em>
 
 ### Python 3.5
-sudo apt-get install python3-pip
-pip3 install <tensorflow wheel file>
+$ sudo apt-get install python3-pip
+
+$ pip3 install <em>tensorflow wheel file</em>
 
 
 # Build Information
