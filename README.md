@@ -7,12 +7,12 @@ Python .whl files for installing TensorFlow.
 There are two directories in this repository, TX1 and TX2. First, install the matching pip for your Python installation. Then install the wheel file from the directory that matches your Jetson model, and version of Python:
 
 ### Python 2.7
-$ sudo apt-get install python-pip
+$ sudo apt-get install -y python-pip python-dev
 
 $ pip install <em>tensorflow-wheel-file</em>
 
 ### Python 3.5
-$ sudo apt-get install python3-pip
+$ sudo apt-get install -y python3-pip python3-dev
 
 $ pip3 install <em>tensorflow-wheel-file</em>
 
